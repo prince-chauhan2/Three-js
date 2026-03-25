@@ -1,0 +1,22 @@
+/* 1. Remove the default browser margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Ensure the body and html take up the full height */
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevents scrollbars if the object moves off-screen */
+    background-color: #000000; /* Sets a black background while the scene loads */
+}
+
+/* 3. Make the canvas (where Three.js draws) behave like a block element */
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    outline: none; /* Removes the blue outline when you click on the canvas */
+}
