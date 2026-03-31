@@ -1,5 +1,10 @@
 // 1. THE SCENE: The 3D world where things live
+
+import * as THREE from 'three';
+
+// 1. THE SCENE: The 3D world where things live
 const scene = new THREE.Scene();
+// ... the rest of your code stays exactly the sameconst scene = new THREE.Scene();
 
 // 2. THE CAMERA: How we view the world
 // PerspectiveCamera(Field of View, Aspect Ratio, Near Clipping, Far Clipping)
